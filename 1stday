@@ -5,3 +5,91 @@ var b = 20 ;
 const c = 30 ;
 
 console.log(a , b, c) ;
+
+/*operators :
+operators are symbols that can do 
+some computation or calculation  */
+
+
+/* we are starting with 
+arithmetic operators + , - , * , / , % , **
+*/
+
+let x = 2 ;
+let y = 3 ;
+
+console.log(x+y) ;//5
+
+console.log(x-y) ;// -1
+
+console.log(x/y) ;// 0.6666666666666666
+
+console.log(x*y) ;// 6
+
+console.log(x%y) ;// 2
+
+console.log(x**y) ;// 8
+
+// Assignment operators
+/* An assignment operator is used to assign a value 
+to a variable. It stores the result of an expression 
+into the variable on the left-hand side. 
+The basic assignment operator is =,
+and there are compound assignment operators like +=, -=, 
+*=,  /=, %= and **= that perform an operation and assign 
+the result in a single step.*/
+
+let z = 10;//Basic assignment 
+
+//  Add & Assign +=
+let p = 5;
+p += 3;   // x = x + 3  
+console.log(p); // 8
+
+//Subtract & Assign -=
+let q = 10;
+q -= 4;   // x = x - 4
+console.log(q); // 6
+
+//Multiply & Assign *=
+let r = 6;
+r *= 2;   // x = x * 2
+console.log(r); // 12
+
+/*  Logical operators are used to combine 
+or invert boolean conditions.
+JavaScript provides three logical operators:
+
+&& (AND) → true only if both conditions are true
+
+|| (OR) → true if at least one condition is true
+
+! (NOT) → reverses the boolean value  */
+
+
+    // && (AND)
+
+console.log(true && true) ;
+console.log(true && false) ;
+console.log(false && true) ;
+console.log(false && false) ;
+
+//  || (OR)
+
+console.log(true && true) ;
+console.log(true && false) ;
+console.log(false && true) ;
+console.log(false && false) ;
+
+// ! (NOT)
+
+console.log(!false);
+console.log(!true);
+
+
+
+
+
+
+
+
